@@ -13,6 +13,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
+            "baseHref": "/wireframes/",
             "outputPath": "dist/vk14",
             "index": "src/index.html",
             "main": "src/main.ts",
